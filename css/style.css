@@ -1,0 +1,128 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/sky-blue-gradient-background-advertisement-vector-illustration_189959-510.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator-background {
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: rgb(91,115,214);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.calculator-input {
+    text-align: right;
+    color: rgba(164,164,164,255);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.calculator-centered-divs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-output {
+    padding: 10px;
+    height: 20px;
+    width: 150px;
+    color: rgba(91,144,223,255);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size:larger;
+    font-weight: bold;
+}
+
+.calculator-button {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(87,130,223);
+    color: white;
+    border: 0px;
+}
+
+.calculator-button:disabled {
+    background-color: rgb(189, 172, 236);
+    color: gray;
+}
+
+.calculator-button:disabled:hover {
+    background-color: rgb(168, 153, 210);
+    color: gray;
+}
+
+.calculator-button:disabled:active {
+    background-color: rgb(144, 132, 176);
+    color: gray;
+}
+
+.calculator-button:hover {
+    background-color: rgb(73, 117, 211);
+}
+
+.calculator-button:active {
+    background-color: rgb(63, 103, 189);
+}
+
+.calculator-equals-button {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    background-color: rgb(104,202,162);
+    color: white;
+    border: 0px;
+}
+
+.calculator-equals-button:hover {
+    background-color: rgb(93, 187, 149);
+}
+
+.calculator-equals-button:active {
+    background-color: rgb(82, 169, 135);
+}
+
+.calculator-equals-button:disabled {
+    background-color: rgb(173, 223, 203);
+}
+
+.calculator-equals-button:disabled:hover {
+    background-color: rgb(146, 194, 175);
+}
+
+.calculator-equals-button:disabled:active {
+    background-color: rgb(126, 153, 142);
+}
+
+.calculator-creative-button {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(227, 112, 54);
+    color: white;
+    border: 0px;
+}
+
+.calculator-creative-button:hover {
+    background-color: rgb(205, 99, 45);
+}
+
+.calculator-creative-button:active {
+    background-color: rgb(189, 90, 40);
+}
