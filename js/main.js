@@ -16,7 +16,6 @@ const digits = [
     document.getElementById("digit-7"),
     document.getElementById("digit-8"),
     document.getElementById("digit-9"),
-    document.getElementById("digit-0")
 ];
 
 const operations = [
